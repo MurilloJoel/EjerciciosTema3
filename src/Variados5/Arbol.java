@@ -1,13 +1,81 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Ejercicio 4
+
+Realiza un programa que dado un valor entero, dibuje un abeto de Navidad de la altura indicada en el entero. Si se escribe un valor negativo, se convierte a positivo antes de dibujar el abeto. Siempre hay una estrella en la cima. Cada 3 pisos, se pone una guirnalda de chocolatinas (representadas por #). Algunos ejemplos:
+
+   0
+
+   *
+            
+
+	
+
+  1
+
+  *
+ *|*
+            
+
+	
+
+  2
+
+  *
+ *|* 
+**|**
+            
+
+	
+
+    3
+
+    *
+   *|*  
+  **|** 
+ #######
+                
+
+	
+
+     4
+
+     *
+    *|*   
+   **|**  
+  #######
+ ****|****
+                
+
+	
+
+       5
+
+       *
+      *|*    
+     **|**   
+    #######  
+   ****|**** 
+  *****|*****
+
+	
+
+       6
+
+       *
+      *|*     
+     **|**    
+    #######   
+   ****|****  
+  *****|***** 
+ #############
+
+
  */
 package Variados5;
 
 /**
  *
- * @author developer
+ * @author joel
  */
 import java.util.Scanner;
 public class Arbol {
